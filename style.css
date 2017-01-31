@@ -2,6 +2,7 @@ html,body {
    margin:0;
    padding:0;
    height:100%;
+   font-family: 'Marcellus SC', serif;
 }
 #header {
    padding:10px;
@@ -32,6 +33,7 @@ html,body {
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
     color: white;
+    font-family: 'Marcellus SC', serif;
 }
 #brand{
       color: white;
@@ -50,4 +52,7 @@ a, a:visited{
   background-color: white;
   color: rgba(0, 191, 255, 1);
   margin-top: 10px;
+}
+#foot{
+  margin-top: 20px;
 }
