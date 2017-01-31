@@ -10,6 +10,7 @@ html,body {
 #body {
    padding:10px;
    padding-bottom:70px;
+   font-family: Helvetica Neue;
 }
 #footer {
    position:absolute;
