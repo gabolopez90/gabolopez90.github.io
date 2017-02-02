@@ -1,39 +1,24 @@
-html,body {
-   margin:0;
-   padding:0;
-   height:100%;
+body {
    font-family: 'Marcellus SC', serif;
-   background-color: rgba(255, 252, 252, 0.49);
-   color: black;
-}
-#body {
-   padding-bottom:70px;
-   font-family: Helvetica Neue;
-}
-#footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:70px;
-   background: -webkit-linear-gradient(top, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
-   background: linear-gradient(to bottom, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
    color:black;
+   background-color: white;
 }
-#custom-bootstrap-menu{
-    font-size: 14px;
-    background: -webkit-linear-gradient(top, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
-    background: linear-gradient(to bottom, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
-    border-width: 1px;
-    border-radius: 4px;
-    border-color: black;
-    font-family: 'Black Ops One', cursive;
-    font-size: 15px;
+.navbar-default{
+  font-size: 14px;
+  background: -webkit-linear-gradient(top, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
+  background: linear-gradient(to bottom, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: black;
+  font-family: 'Black Ops One', cursive;
+  font-size: 15px;
+  height: 50px;
 }
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: black;
-    font-family: 'Marcellus SC', serif;
+.navbar-default .navbar-nav>li>a {
+  color: black;
+  font-family: 'Marcellus SC', serif;
 }
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:hover {
     color: white;
     font-family: 'Marcellus SC', serif;
 }
@@ -44,14 +29,37 @@ html,body {
 #brand:hover{
   color:white;
 }
+#inicio{
+  height: 100vh;
+  padding-top: 30vh;
+  background-color: rgb(9, 10, 10);
+  color: rgba(0, 191, 255, 1);
+}
+#nombre{
+  font-size: 100px;
+}
+#descripcion{
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px;
+}
 a, a:visited, a:hover{
   text-decoration: none;
   color: inherit;
 }
+hr{
+  border-color: rgba(0, 191, 255, 1);
+}
+/*Pie de pagina*/
 #contact{
   margin-left: auto;
   margin-right: auto;
-  align: center;
+}
+#footer {
+   height:70px;
+   background: -webkit-linear-gradient(top, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
+   background: linear-gradient(to bottom, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
+   color:black;
 }
 .raised{
   background-color: white;
@@ -61,7 +69,4 @@ a, a:visited, a:hover{
 .raised:hover{
   background-color: rgba(0, 191, 255, 1);
   color: black;
-}
-#foot{
-  margin-top: 20px;
 }
