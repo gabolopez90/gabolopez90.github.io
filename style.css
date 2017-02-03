@@ -78,7 +78,7 @@ hr:before {
    margin-right: auto;
 }
 div.img {
-   margin: 15px;
+   margin: 3px;
    border: 1px solid #ccc;
    width: 300px;
 }
@@ -95,6 +95,7 @@ div.img img {
 div.desc {
    padding: 15px;
    text-align: center;
+   background-color: rgba(0, 191, 255, 1);
 }
 /*Pie de pagina*/
 #contact{
