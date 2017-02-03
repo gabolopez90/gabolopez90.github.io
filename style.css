@@ -3,6 +3,7 @@ body {
    color:black;
    background-color: white;
 }
+/*Barra de navegacion*/
 .navbar-default{
   font-size: 14px;
   background: -webkit-linear-gradient(top, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
@@ -29,6 +30,7 @@ body {
 #brand:hover{
   color:white;
 }
+/*Textos*/
 #inicio{
   height: 100vh;
   padding-top: 30vh;
@@ -42,35 +44,17 @@ body {
   color: rgba(0, 191, 255, 1);
   font-size: 40px;
 }
-#descripcion{
+.descripcion{
   font-size: 20px;
-  text-align: justify;
   margin-right: 40px;
   margin-left: 40px;
 }
+/*Diferenciar links*/
 a, a:visited, a:hover{
   text-decoration: none;
-  color: inherit;
-}
-#contact{
-  margin-left: auto;
-  margin-right: auto;
-}
-#footer {
-   height:70px;
-   background: -webkit-linear-gradient(top, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
-   background: linear-gradient(to bottom, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
-   color:black;
-}
-.raised{
-  background-color: white;
   color: rgba(0, 191, 255, 1);
-  margin-top: 10px;
 }
-.raised:hover{
-  background-color: rgba(0, 191, 255, 1);
-  color: black;
-}
+/*Barra estilizada*/
 hr{
   border-color: rgba(0, 191, 255, 1);
   height: 30px;
@@ -87,4 +71,48 @@ hr:before {
   border-color: #8c8b8b;
   border-width: 0 0 1px 0;
   border-radius: 20px;
+}
+/*Galeria de proyectos*/
+#galeria{
+  margin-left: 5vw;
+}
+div.img {
+   margin: 5px;
+   border: 1px solid #ccc;
+   width: 400px;
+}
+
+div.img:hover {
+   border: 2px solid rgba(0, 191, 255, 1);
+}
+
+div.img img {
+   width: 100%;
+   height: auto;
+}
+
+div.desc {
+   padding: 15px;
+   text-align: center;
+}
+/*Pie de pagina*/
+#contact{
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer {
+   height:70px;
+   background: -webkit-linear-gradient(top, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
+   background: linear-gradient(to bottom, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
+   color:black;
+   font-size: 15px;
+}
+.raised{
+  background-color: white;
+  color: rgba(0, 191, 255, 1);
+  margin-top: 10px;
+}
+.raised:hover{
+  background-color: rgba(0, 191, 255, 1);
+  color: black;
 }
