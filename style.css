@@ -86,6 +86,8 @@ div.img {
 
 div.img:hover {
    border: 1px solid black;
+   font-weight: bold;
+   font-size: 10px;
 }
 
 div.img img {
@@ -96,10 +98,7 @@ div.img img {
 div.desc {
    padding: 15px;
    text-align: center;
-   background-color: rgba(0, 191, 255, 1);
-}
-div.desc:hover{
-   font-weight: bold;
+   background-color: rgba(0, 191, 255, 1)
 }
 /*Pie de pagina*/
 #contact{
