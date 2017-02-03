@@ -79,6 +79,7 @@ hr:before {
 }
 div.img {
    margin: 3px;
+   margin-top: 10px;
    border: 1px solid #ccc;
    width: 300px;
    background-color: rgba(0, 191, 255, 1);
