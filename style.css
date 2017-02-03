@@ -82,7 +82,6 @@ div.img {
    margin: 3px;
    border: 1px solid #ccc;
    width: 300px;
-   background-color: rgba(0, 191, 255, 1);
 }
 
 div.img:hover {
