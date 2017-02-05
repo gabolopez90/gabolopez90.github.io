@@ -37,6 +37,17 @@ body {
   background-color: rgb(9, 10, 10);
   color: rgba(0, 191, 255, 1);
 }
+#explorar{
+  border: 2px solid rgba(0, 191, 255, 1);
+  color: rgba(0, 191, 255, 1);
+  background-color: #0000;
+  margin-top: 25vh;
+  box-shadow: 0px 3px 0px 0px rgba(11, 66, 138, 1);
+}
+#explorar:active{
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
 #nombre{
   font-size: 100px;
 }
@@ -87,17 +98,14 @@ div.img {
    border: 1px solid #ccc;
    width: 300px;
 }
-
 div.img:hover {
    border: 1px solid black;
    font-weight: bold;
 }
-
 div.img img {
    width: 100%;
    height: auto;
 }
-
 div.desc {
    padding: 25px;
    text-align: center;
