@@ -10,6 +10,15 @@
     <link href="style.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Marcellus+SC" rel="stylesheet">
     <link rel="shortcut icon" href="img\GL.ico" type="favicon/ico" />
+    <script>
+    $(document).ready(function(){
+      $("#header,#sobreMi,#portafolio, #footer, hr").hide();
+      $("#explorar").click(function(){
+        $("#header, #sobreMi,#portafolio, #footer, hr").show();
+        $(this).hide();
+      });
+    });
+    </script>
   </head>
   <body>
     <section id="header">
