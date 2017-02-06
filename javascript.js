@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $("#header, #sobreMi, #habilidades, #portafolio, #footer, #bot,hr").hide();
   $("#explorar").click(function(){
-    $("#header, #sobreMi, #habilidades, #portafolio, #footer, #bot, hr").fadeTo("fast",1);
+    $("#header, #sobreMi, #habilidades, #portafolio, #footer, #bot, hr").fadeTo("slow",1);
     $(this).fadeOut('slow');
   });
   //Smooth scrolling
