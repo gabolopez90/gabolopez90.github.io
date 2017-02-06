@@ -5,15 +5,13 @@ body {
 }
 /*Barra de navegacion*/
 .navbar-default{
-  font-size: 14px;
   background: -webkit-linear-gradient(top, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
   background: linear-gradient(to bottom, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
   border-width: 1px;
-  border-radius: 4px;
   border-color: black;
   font-family: 'Alfa Slab One', cursive;
-  font-size: 15px;
-  height: 50px;
+  font-size: 20px;
+
 }
 .navbar-default .navbar-nav>li>a {
   color: black;
@@ -25,7 +23,7 @@ body {
 }
 #brand{
   color: black;
-  font-size: 30px;
+  font-size: 40px;
 }
 #brand:hover{
   color:white;
@@ -33,7 +31,7 @@ body {
 /*Textos*/
 #inicio{
   height: 100vh;
-  padding-top: 30vh;
+  padding-top: 25vh;
   background-color: rgb(9, 10, 10);
   color: rgba(0, 191, 255, 1);
 }
@@ -41,7 +39,7 @@ body {
   border: 2px solid rgba(0, 191, 255, 1);
   color: rgba(0, 191, 255, 1);
   background-color: #0000;
-  margin-top: 25vh;
+  margin-top: 20vh;
   box-shadow: 0px 3px 0px 0px rgba(11, 66, 138, 1);
 }
 #explorar:active{
@@ -49,14 +47,14 @@ body {
   box-shadow: none;
 }
 #nombre{
-  font-size: 100px;
+  font-size: 150px;
 }
 .subtitulo{
   color: rgba(0, 191, 255, 1);
-  font-size: 40px;
+  font-size: 60px;
 }
 .descripcion{
-  font-size: 20px;
+  font-size: 30px;
   margin-right: 40px;
   margin-left: 40px;
 }
