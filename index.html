@@ -12,6 +12,7 @@
     <link rel="shortcut icon" href="img\GL.ico" type="favicon/ico" />
   </head>
   <body>
+
     <section id="header">
         <nav class="container-fluid navbar-default navbar-fixed-top" role="navigation" id="nav1">
           <div class="navbar-header">
@@ -21,12 +22,14 @@
             <ul class="nav navbar-nav navbar-right" >
               <li><a href="#inicio"><i class="fa fa-home fa-fw" aria-hidden="true"></i> Inicio</a></li>
               <li><a href="#sobreMi"><i class="fa fa-user-circle" aria-hidden="true"></i> Sobre mí</a></li>
+              <li><a href="#habilidades"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Habilidades</a></li>
               <li><a href="#portafolio"><i class="fa fa-book" aria-hidden="true"></i> Portafolio</a></li>
-              <li><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i> Contáctame</a></li>
+              <li><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i> Contacto</a></li>
             </ul>
           </div>
         </nav>
     </section>
+
     <section id="body">
       <div id="inicio">
         <div class="text-center">
@@ -36,19 +39,26 @@
         </div>
       </div>
     </section>
+
     <hr />
+
     <section id="sobreMi">
         <h2 class="subtitulo text-center">Sobre Mí</h2>
         <p class="descripcion text-center">
           ¡Hola! Soy un desarrollador de páginas y aplicaciones web de <strong>Caracas, Venezuela</strong>. Aprendiendo a programar por mi cuenta en mi tiempo libre. Actualmente trabajo freelance. Co-creador de <a target="_blank" href="http://duobug.com.ve"><strong>DuoBug</strong></a> donde planeamos ofrecer paquetes de diseño web, marketing y apps a precios solidarios para todos.
         </p>
-        <h3 class="subtitulo text-center">Habilidades</h3>
-        <ul class="text-center descripcion">
-          <li><i class="fa fa-code" aria-hidden="true"></i> <strong>Basic:</strong> PHP, C, C++, SASS.</li>
-			    <li><i class="fa fa-code" aria-hidden="true"></i> <strong>Intermediate:</strong> HTML, CSS, Javascript, Jquery.</li>
-        </ul>
     </section>
     <hr />
+    <section id="habilidades">
+      <h3 class="subtitulo text-center">Habilidades</h3>
+      <ul class="text-center descripcion">
+        <li><i class="fa fa-code" aria-hidden="true"></i> <strong>Basic:</strong> PHP, C, C++, SASS.</li>
+			  <li><i class="fa fa-code" aria-hidden="true"></i> <strong>Intermediate:</strong> HTML, CSS, Javascript, Jquery.</li>
+      </ul>
+    </section>
+
+    <hr />
+
     <section id="portafolio">
           <h2 class="text-center subtitulo">Portafolio</h2>
           <p class="descripcion text-center">
@@ -59,14 +69,14 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
               <div class="img col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                 <a target="_blank" href="https://codepen.io/gabolopez90/full/NRLGvB/">
-                  <img src="img\convit.jpg" alt="jConvit" width="400" height="500">
+                  <img src="img\convit.jpg" alt="jConvit" width="300" height="400">
                 </a>
                  <div class="desc">Jacinto Convit</div>
                 </div>
 
                 <div class="img col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                  <a target="_blank" href="http://codepen.io/gabolopez90/full/WoWrog/">
-                   <img src="img\westworld.jpg" alt="westworld" width="400" height="500">
+                   <img src="img\westworld.jpg" alt="westworld" width="300" height="400">
                  </a>
                  <div class="desc">Westworld RQG</div>
                 </div>
@@ -111,8 +121,28 @@
           </div>
           </div> <!--End galeria-->
     </section>
+
+    <hr />
+
+    <section id="contact">
+      <div id="bot" class="form-group text-center">
+        <h2 class="text-center subtitulo">Contacto</h2>
+        <form method="GET" action="mailto:gabolopez1990@gmail.com" enctype="text/plain">
+          <input id="name" class="form-control" type="text" name="nombre" placeholder="Nombre.." />
+          <br />
+          <input id="asunto" class="form-control" type="text" name="asunto" placeholder="Asunto.." />
+          <br />
+          <input id="email" class="form-control" type="email" name="email" placeholder="Correo Electrónico.."/>
+          <br />
+          <textarea id="mensaje" class="form-control" type="text" rows="5" name="mensaje" maxlength="500" autocomplete="off" placeholder="Ingrese su mensaje.."></textarea>
+          <br />
+          <button class="btn" id="enter">Enviar</button>
+        </form>
+      </div>
+    </section>
+
     <section id="footer">
-      <div id="contact" class="text-center">
+      <div id="bottom" class="text-center">
         <a href="https://www.facebook.com/gabolopez90" target="_blank"><btn class="btn btn-default btn-primary fa fa-facebook raised"></btn></a>
         <a href="https://twitter.com/ElGaboncio" target="_blank"><btn class="btn btn-default btn-primary fa fa-twitter raised"></btn></a>
         <a href="https://www.instagram.com/elgaboncio/" target="_blank"><btn class="btn btn-default btn-primary fa fa-instagram raised"></btn></a>
