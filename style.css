@@ -23,7 +23,7 @@ body {
 }
 #brand{
   color: black;
-  font-size: 40px;
+  font-size: 2.5em;
 }
 #brand:hover{
   color:white;
@@ -34,6 +34,7 @@ body {
   padding-top: 25vh;
   background-color: rgb(9, 10, 10);
   color: rgba(0, 191, 255, 1);
+  width: 100%;
 }
 #explorar{
   border: 2px solid rgba(0, 191, 255, 1);
@@ -47,14 +48,14 @@ body {
   box-shadow: none;
 }
 #nombre{
-  font-size: 150px;
+  font-size: 5em;
 }
 .subtitulo{
   color: rgba(0, 191, 255, 1);
   font-size: 50px;
 }
 .descripcion{
-  font-size: 25px;
+  font-size: 1.5em;
   margin-right: 40px;
   margin-left: 40px;
 }
