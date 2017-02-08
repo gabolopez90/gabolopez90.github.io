@@ -88,28 +88,40 @@ li{
   margin-top: 10px;
 }
 /*Galeria de proyectos*/
-#galeria{
-   margin-left: auto;
-   margin-right: auto;
-   width: 95%;
-}
 div.img {
-   margin: 3px;
-   border: 1px solid #ccc;
-   width: 300px;
+    border: 1px solid #ccc;
 }
 div.img:hover {
-   border: 1px solid black;
-   font-weight: bold;
+    border: 1px solid #777;
+    font-weight: bold;
 }
 div.img img {
-   width: 100%;
-   height: auto;
+    width: 100%;
+    height: auto;
 }
 div.desc {
-   padding: 25px;
-   text-align: center;
-   background-color: rgba(0, 191, 255, 1)
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(0, 191, 255, 1)
+}
+* {
+    box-sizing: border-box;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
 }
 /*Forma de contacto*/
 #enter{
