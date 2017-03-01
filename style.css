@@ -31,14 +31,17 @@ body {
 #inicio{
   height: 100vh;
   padding-top: 25vh;
-  background-color: rgb(9, 10, 10);
+  background: rgb(0, 16, 35);
+  /* Gradiente, no se si implementarla
+  background: radial-gradient(at 50% 70%, #000811 ,#001935 ,#00336d , #004491);
+  */
   color: rgba(0, 191, 255, 1);
   width: 100%;
 }
 #explorar{
   border: 2px solid rgba(0, 191, 255, 1);
   color: rgba(0, 191, 255, 1);
-  background-color: rgb(9, 10, 10);
+  background: rgb(0, 16, 35);
   margin-top: 20vh;
   box-shadow: 0px 3px 0px 0px rgba(11, 66, 138, 1);
 }
@@ -55,8 +58,12 @@ body {
 }
 .descripcion{
   font-size: 1.5em;
-  margin-right: 40px;
-  margin-left: 40px;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: justify;
+}
+.subtl{
+  font-size: 1.5em;
 }
 /*Diferenciar links*/
 a, a:visited, a:hover{
@@ -91,7 +98,7 @@ div.img {
     border: 1px solid #ccc;
 }
 div.img:hover {
-    border: 1px solid #777;
+    border-color: #777;
     font-weight: bold;
 }
 div.img img {
@@ -109,17 +116,19 @@ div.desc {
 .responsive {
     padding: 0 6px;
     float: left;
-    width: 24.99999%;
+    width: 22.99999%;
+    margin: 1%;
 }
 @media only screen and (max-width: 700px){
     .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
+        width: 46.99999%;
+        margin: 1%;
     }
 }
 @media only screen and (max-width: 500px){
     .responsive {
-        width: 100%;
+        width: 98%;
+        margin: 1%;
     }
 }
 /*Forma de contacto*/
