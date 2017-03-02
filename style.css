@@ -64,6 +64,8 @@ body {
 }
 .subtl{
   font-size: 1.5em;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 /*Diferenciar links*/
 a, a:visited, a:hover{
