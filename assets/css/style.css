@@ -58,8 +58,8 @@ body {
 }
 .descripcion{
   font-size: 1.5em;
-  margin-right: 20%;
-  margin-left: 20%;
+  padding-right: 20%;
+  padding-left: 20%;
   text-align: justify;
 }
 .subtl{
@@ -150,12 +150,15 @@ form{
   margin-left: 20vw;
 }
 /*Pie de pagina*/
+.correo{
+  font-size: 1.5em;
+}
 #bottom{
   margin-left: auto;
   margin-right: auto;
 }
 #footer {
-   margin-top: 20px;
+  padding-top: 30px;
    height:70px;
    background: -webkit-linear-gradient(top, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
    background: linear-gradient(to bottom, rgba(0, 191, 255, 1) 0%, rgba(11, 66, 138, 1) 100%);
