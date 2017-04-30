@@ -61,6 +61,7 @@ body {
   padding-right: 20%;
   padding-left: 20%;
   text-align: justify;
+  letter-spacing: 0.1em;
 }
 .subtl{
   font-size: 1.5em;
@@ -156,6 +157,7 @@ form{
 #bottom{
   margin-left: auto;
   margin-right: auto;
+  padding: 3em;
 }
 #footer {
   padding-top: 30px;
