@@ -1,6 +1,6 @@
 ![Mi Logo](https://github.com/gabolopez90/gabolopez90.github.io/blob/master/img/GL.ico)
 
-# gabolopez90.github.io
+# Gabriel López - Desarrollador Web
 
 Mi página personal que también actúa como currículo/portafolio. El resto de mis repositorios también se pueden encontrar aquí. 
 Ésta página estará en constante cambio, debido a que estoy comenzando y aprendiendo mucho y quiero implementarlo en mis páginas y aplicaciones.
@@ -10,7 +10,7 @@ También formo parte del proyecto [DuoBug](https://duobug.com.ve), donde planeam
 
 >El hombre no puede ganar nada sin dar primero algo a cambio. Para crear, algo de igual valor debe perderse. Esta es la ley de "Equivalencia de Intercambio". - La primera ley de la Alquimia.
 
-# gabolopez90.github.io - EN
+# Gabriel López - Front-End Developer - EN
 
 My personal page that also acts as a curriculum/portfolio. You can also find the rest of my repositories in here. This page will be changing constantly because I'm always learning new things and implementing it on my sites. 
 
