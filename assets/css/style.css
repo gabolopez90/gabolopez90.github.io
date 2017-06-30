@@ -10,7 +10,7 @@ body {
   border-width: 1px;
   border-color: black;
   font-family: 'Alfa Slab One', cursive;
-  font-size: 15px;
+  font-size: 1em;
 }
 .navbar-default .navbar-nav>li>a {
   color: black;
@@ -22,7 +22,7 @@ body {
 }
 #brand{
   color: black;
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
 #brand:hover{
   color:white;
@@ -67,6 +67,8 @@ body {
   font-size: 1.5em;
   margin-right: 20%;
   margin-left: 20%;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 /*Diferenciar links*/
 a, a:visited, a:hover{
@@ -122,14 +124,21 @@ div.desc {
     width: 22.99999%;
     margin: 1%;
 }
+.responsive2 {
+  padding: 0 6px;
+  float: left;
+  width: 45.9999%;
+  margin: 2%;
+}
+//Media Queries
 @media only screen and (max-width: 700px){
-    .responsive {
+    .responsive , .responsive2 {
         width: 46.99999%;
         margin: 1%;
     }
 }
 @media only screen and (max-width: 500px){
-    .responsive {
+    .responsive, .responsive2 {
         width: 98%;
         margin: 1%;
     }
